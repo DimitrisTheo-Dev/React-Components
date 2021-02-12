@@ -7,7 +7,7 @@ let getTime = () => {
     return (new Date()).toLocaleTimeString()
 }
 
- const App = () => {
+const App: React.FC = () => {
   return (
       <div className="ui container comments">
           <ApprovalCard>

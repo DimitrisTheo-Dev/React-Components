@@ -6,7 +6,7 @@ interface Props {
     profile: any;
     text: string;
 }
-const CommentDetail = (props: Props) => {
+const CommentDetail: React.FC<Props> = (props: Props) => {
     return (
         <div className="comment">
             <a href="/" className= "avatar">

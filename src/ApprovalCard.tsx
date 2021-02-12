@@ -3,7 +3,7 @@ import React from 'react';
 interface Props {
     children: any;
 }
-const ApprovalCard = (props: Props) => {
+const ApprovalCard: React.FC<Props> = (props: Props) => {
     return (
         <div className="ui card">
             <div className="content">{props.children}</div>
